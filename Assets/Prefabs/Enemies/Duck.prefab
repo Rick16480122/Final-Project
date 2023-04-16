@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 7322077444669602244}
   - component: {fileID: 4325155765469386718}
   - component: {fileID: 1906777446876773180}
+  - component: {fileID: -7497922176130192327}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Untagged
@@ -505,7 +506,6 @@ MonoBehaviour:
     m_Bits: 1
   attackRange: 2
   damagePerSecond: 2
-  damageSound: {fileID: 8300000, guid: ae4602dfda9ce7e488545e9c40582029, type: 3}
 --- !u!195 &1906777446876773180
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -528,6 +528,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-7497922176130192327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553215384639393229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2a6af262991104b83a76814c2f4479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6011611792805118259}
 --- !u!1 &1598528132542106163
 GameObject:
   m_ObjectHideFlags: 0
