@@ -52,7 +52,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
      <Compile Include="Assets/Scripts/AI/PatrolAINavMesh.cs" />
-     <Compile Include="Assets/Scripts/Teleporter.cs" />
+     <Compile Include="Assets/Scripts/IntroRoom/Teleporter.cs" />
      <Compile Include="Assets/Scripts/Gun/EnemyHealth.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
@@ -75,8 +75,8 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
      <Compile Include="Assets/Store Assets/Office Assets/Readme/Scripts/Readme.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
-     <Compile Include="Assets/Scripts/PlayerHealth.cs" />
-     <Compile Include="Assets/Scripts/ModelSwitcher.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerHealth.cs" />
+     <Compile Include="Assets/Scripts/Player/ModelSwitcher.cs" />
      <Compile Include="Assets/Animation/MoveStop.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/Gun/BulletDamage.cs" />
@@ -86,7 +86,7 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
      <Compile Include="Assets/Animation/AIAnimationController.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
-     <Compile Include="Assets/Scripts/BossCheck.cs" />
+     <Compile Include="Assets/Scripts/AI/BossCheck.cs" />
      <Compile Include="Assets/Store Assets/Laser/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs" />
      <Compile Include="Assets/Store Assets/FPS Controller/Scripts/Components/Crouch.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
@@ -97,6 +97,10 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
      <Compile Include="Assets/Store Assets/FPS Controller/Scripts/Components/GroundCheck.cs" />
+     <Compile Include="Assets/Scripts/SecurityGate/Keycard.cs" />
+     <Compile Include="Assets/Scripts/SecurityGate/PlayerInventory.cs" />
+     <Compile Include="Assets/Scripts/SecurityGate/Gate.cs" />
+     <Compile Include="Assets/Scripts/SecurityGate/InteractWithPad.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Store Assets/Laser/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc" />
