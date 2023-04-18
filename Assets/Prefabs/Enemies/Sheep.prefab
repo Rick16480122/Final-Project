@@ -1377,6 +1377,7 @@ GameObject:
   - component: {fileID: 8803649838827568003}
   - component: {fileID: 4279602658368211967}
   - component: {fileID: 1929622308148681753}
+  - component: {fileID: 799028498021335380}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -1533,7 +1534,19 @@ MonoBehaviour:
     m_Bits: 1
   attackRange: 2
   damagePerSecond: 4
-  damageSound: {fileID: 8300000, guid: ae4602dfda9ce7e488545e9c40582029, type: 3}
+--- !u!114 &799028498021335380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803649838827568010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2a6af262991104b83a76814c2f4479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8803649838827568009}
 --- !u!1 &8803649838909630884
 GameObject:
   m_ObjectHideFlags: 0
