@@ -3,13 +3,31 @@ using UnityEngine;
 public class Keycard : MonoBehaviour
 {
     public string keycardID;
+    private bool isInRange = false;
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.CompareTag("Player"))
+        if (isInRange && Input.GetKeyDown(KeyCode.F))
         {
-            other.GetComponent<PlayerInventory>().AddKeycard(keycardID);
+            PlayerInventory.Instance.AddKeycard(keycardID);
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player") || other.CompareTag("Wolf"))
+        {
+            isInRange = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player") || other.CompareTag("Wolf"))
+        {
+            isInRange = false;
+        }
+    }
 }
+

@@ -594,6 +594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   damageSound: {fileID: 8300000, guid: ae4602dfda9ce7e488545e9c40582029, type: 3}
+  damageCooldown: 1
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0
