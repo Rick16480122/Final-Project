@@ -356,6 +356,8 @@
 "Assets/Scripts/IntroRoom/Teleporter.cs"
 "Assets/Scripts/Menus/EndMenu.cs"
 "Assets/Scripts/Menus/PauseMenu.cs"
+"Assets/Scripts/Player/Load00.cs"
+"Assets/Scripts/Player/Load01.cs"
 "Assets/Scripts/Player/ModelSwitcher.cs"
 "Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/SecurityGate/Gate.cs"
