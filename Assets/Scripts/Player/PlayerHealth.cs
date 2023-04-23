@@ -1,43 +1,27 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth = 10f;
+    public float maxHealth = 6f;
     private float currentHealth;
-
-    public AudioClip damageSound;
-    private AudioSource audioSource;
-
-    public float damageCooldown = 1.0f;
-    private float nextDamageTime;
 
     private void Start()
     {
         currentHealth = maxHealth;
-        audioSource = GetComponent<AudioSource>();
-
-        if (audioSource == null)
-        {
-            gameObject.AddComponent<AudioSource>();
-            audioSource = GetComponent<AudioSource>();
-        }
-        nextDamageTime = Time.time;
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-
-        if (damageSound != null && Time.time >= nextDamageTime)
+        if (currentHealth <= 0f)
         {
-            audioSource.PlayOneShot(damageSound);
+            Die();
         }
+    }
 
-        if (currentHealth <= 0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+    private void Die()
+    {
+        // Add any additional logic here, like playing a death animation or sound effect
+        Destroy(gameObject);
     }
 }
