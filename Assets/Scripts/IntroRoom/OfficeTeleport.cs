@@ -5,15 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class OfficeTeleport : MonoBehaviour
 {
-    void Start()
+    public GameObject Player;
+
+    void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKey(KeyCode.E))
+        GameObject Player = GameObject.FindWithTag("Player");
+        if (Player != null)
+        {
             SceneManager.LoadScene("OfficeLevel");
-    }
-
-
-    void Update()
-    {
-        
+        }
     }
 }
