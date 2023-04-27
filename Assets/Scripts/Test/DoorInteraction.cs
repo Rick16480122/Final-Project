@@ -21,7 +21,7 @@ public class DoorInteraction : MonoBehaviour
 
             if (isPlayerInRange && Input.GetKeyDown(KeyCode.F))
             {
-                SceneManager.LoadScene("Game");
+                SceneManager.LoadScene("OfficeLevel");
             }
         }
     }
