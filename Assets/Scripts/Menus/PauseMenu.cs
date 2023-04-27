@@ -44,6 +44,16 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        print("Restarting!");
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting menu...");
