@@ -16,4 +16,9 @@ public class EndMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
     }
+
+        public void Retreat()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
 }

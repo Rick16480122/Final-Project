@@ -12,21 +12,8 @@ public class BossCheck : MonoBehaviour
 
         if (boss == null)
         {
-            LoadNextScene();
+            SceneManager.LoadScene("GameOver");
         }
-    }
-
-    void LoadNextScene()
-    {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1;
-
-        // Check if the next scene exists in the build settings
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-
     }
 }
 
