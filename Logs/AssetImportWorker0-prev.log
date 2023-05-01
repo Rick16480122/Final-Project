@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63595
+52536
 Successfully changed project path to: /Users/amydubin/Documents/GitHub/Final-Project
 /Users/amydubin/Documents/GitHub/Final-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/amydubin/Documents/GitHub/Final-Pro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4444702080] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 1589820019 [EditorId] 1589820019 [Version] 1048832 [Id] OSXEditor(0,Amys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4434724224] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 4114940944 [EditorId] 4114940944 [Version] 1048832 [Id] OSXEditor(0,Amys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4444702080] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 1589820019 [EditorId] 1589820019 [Version] 1048832 [Id] OSXEditor(0,Amys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4434724224] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 4114940944 [EditorId] 4114940944 [Version] 1048832 [Id] OSXEditor(0,Amys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,78 +73,78 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56817
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004360 seconds.
+Registered in 0.002547 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
+- Completed reload, in  0.644 seconds
 Domain Reload Profiling:
-	ReloadAssembly (664ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (645ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (346ms)
-			LoadAssemblies (237ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (156ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017101 seconds.
+Registered in 0.023859 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/amydubin/Documents/GitHub/Final-Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/amydubin/Documents/GitHub/Final-Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.940 seconds
 Domain Reload Profiling:
-	ReloadAssembly (798ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (154ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -154,12 +154,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (88.5 KB). Loaded Objects now: 3596.
-Memory consumption went from 115.4 MB to 115.3 MB.
-Total: 2.447625 ms (FindLiveObjects: 0.114792 ms CreateObjectMapping: 0.037041 ms MarkObjects: 2.175209 ms  DeleteObjects: 0.119417 ms)
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (88.8 KB). Loaded Objects now: 3597.
+Memory consumption went from 115.8 MB to 115.7 MB.
+Total: 2.559667 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.038250 ms MarkObjects: 2.288708 ms  DeleteObjects: 0.105167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,181 +173,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 160894.202099 seconds.
-  path: Assets/Store Assets/Office Assets/Readme.asset
-  artifactKey: Guid(7b2256ddb381f401387291931f337baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/Office Assets/Readme.asset using Guid(7b2256ddb381f401387291931f337baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da4cf234d4d6a4a8277bb50b896bfd1') in 0.085286 seconds 
+  Time since last request: 213284.098606 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Corner_03.prefab
+  artifactKey: Guid(54fc64d13bd99164cb014d2ab4fd7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Corner_03.prefab using Guid(54fc64d13bd99164cb014d2ab4fd7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f47fcd39fac2e9686443c5d37e0d95') in 0.153953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.615339 seconds.
-  path: Assets/Materials/Materials/keyMat.mat
-  artifactKey: Guid(f34daa0bd359e4918acf18cd3766dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/keyMat.mat using Guid(f34daa0bd359e4918acf18cd3766dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec3a2313d959cbc3433077094291f3a') in 0.140865 seconds 
+  Time since last request: 0.000073 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ridge_Transition_01.prefab
+  artifactKey: Guid(fbfc0e988c2cf0b4e9932d648195505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ridge_Transition_01.prefab using Guid(fbfc0e988c2cf0b4e9932d648195505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc16fbabb8d4e5b297971e05418f527f') in 0.021148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.014632 seconds.
-  path: Assets/Materials/Materials/Blue Message.mat
-  artifactKey: Guid(92db832cf611775419064bde6463bd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Blue Message.mat using Guid(92db832cf611775419064bde6463bd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbbd0185e87dff31055da77dd782017') in 0.017651 seconds 
+  Time since last request: 0.000085 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Bridge_Straight_01.prefab
+  artifactKey: Guid(a3dbe0c71e82d0740b40cbf094e9adf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Bridge_Straight_01.prefab using Guid(a3dbe0c71e82d0740b40cbf094e9adf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a04a6924b5202452a5ddf26ad86e7') in 0.021819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Materials/Materials/carpetMat.mat
-  artifactKey: Guid(61dcd782422f84b15819e7feca5131b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/carpetMat.mat using Guid(61dcd782422f84b15819e7feca5131b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286ed81dce4da1ef6abe471a4b965a26') in 0.016459 seconds 
+  Time since last request: 0.000053 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Hills_02.prefab
+  artifactKey: Guid(dd75aabd32084b449b09226528489cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Hills_02.prefab using Guid(dd75aabd32084b449b09226528489cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ddcae0aec3bb5c37c27329cca7ab99') in 0.022084 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.000452 seconds.
-  path: Assets/Scenes/Trains.unity
-  artifactKey: Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Trains.unity using Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5007f272b2acc4fd1ea2cd22a25ccd') in 0.005366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.794090 seconds.
-  path: Assets/Scenes/Trains.unity
-  artifactKey: Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Trains.unity using Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdbf09c7db7d3cfa4146b2cad10e7db') in 0.004210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.775643 seconds.
-  path: Assets/Scenes/BlockMat.mat
-  artifactKey: Guid(537c9b1e761934a5a83022704d4f8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BlockMat.mat using Guid(537c9b1e761934a5a83022704d4f8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9dc7329a1e330d10f988ec7cb762fa') in 0.022049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.362650 seconds.
-  path: Assets/Materials/Laser.mat
-  artifactKey: Guid(edbe4d48aef872b4a801c4b1a8c6f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Laser.mat using Guid(edbe4d48aef872b4a801c4b1a8c6f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b10a4e1f20e49fb0aa57b06f4ebf0f') in 0.020213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.398331 seconds.
-  path: Assets/Materials/Materials
-  artifactKey: Guid(d6ebee71859896c48ac10023f5301734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials using Guid(d6ebee71859896c48ac10023f5301734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba52e1d6221a63bb0efdfa0b8c00c203') in 0.006303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.487827 seconds.
-  path: Assets/Materials/Materials/BlockMat.mat
-  artifactKey: Guid(660ec4760b8624c51b8bf5c2fa3ec072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/BlockMat.mat using Guid(660ec4760b8624c51b8bf5c2fa3ec072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf0bff1948bd922ad4ab930aa6e77c8') in 0.024652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.437971 seconds.
-  path: Assets/Materials/Materials/Day1.mat
-  artifactKey: Guid(07d0767101c91428f8f3ca8d94e101db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Day1.mat using Guid(07d0767101c91428f8f3ca8d94e101db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeee56346b4ab2ffa250abb439934a3') in 0.104007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.225152 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.mat
-  artifactKey: Guid(3ab8d1c1e1a5163439785ec9ebe8aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/5,56x45.mat using Guid(3ab8d1c1e1a5163439785ec9ebe8aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d2daf720cf9de4da293210111abef7') in 0.053661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/9mm_bullet.mat
-  artifactKey: Guid(b50050d591248c748acccdd9de371df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/9mm_bullet.mat using Guid(b50050d591248c748acccdd9de371df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c95eac9af7e10fc8221dcf4c73b2e1') in 0.027890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/7,62x54.mat
-  artifactKey: Guid(da530cc749a0692459c9176ba2da0cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/7,62x54.mat using Guid(da530cc749a0692459c9176ba2da0cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b426ef1444ba156cd8adb24c25f7c4cf') in 0.025651 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_End_01.prefab
+  artifactKey: Guid(8377af81a5ba65f44a09925924cdc157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_End_01.prefab using Guid(8377af81a5ba65f44a09925924cdc157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6d998e0ff7037e78de12b9f826f762') in 0.021199 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/12,7 × 99.mat
-  artifactKey: Guid(ba8193452ed924946bf206c5d29378cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/12,7 × 99.mat using Guid(ba8193452ed924946bf206c5d29378cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62397aa0606fbeaeea17bc0d8a513a65') in 0.034299 seconds 
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Bridge_Straight_03.prefab
+  artifactKey: Guid(7669abd01bac43747b23c70b02ec81d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Bridge_Straight_03.prefab using Guid(7669abd01bac43747b23c70b02ec81d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998e232c82c79b1b8e883179df6d626d') in 0.019515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.220412 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/45acp.mat
-  artifactKey: Guid(d1834b472d6b36e4884b36a93b726946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/45acp.mat using Guid(d1834b472d6b36e4884b36a93b726946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a351b39ff501fce76e94da30b1614740') in 0.037320 seconds 
+  Time since last request: 0.000070 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_RoadCrossing_01.prefab
+  artifactKey: Guid(28eb1c79513f61d48b83d782a65edf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_RoadCrossing_01.prefab using Guid(28eb1c79513f61d48b83d782a65edf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd228e9aa2605f569b6951324919be') in 0.017847 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.200504 seconds.
-  path: Assets/Store Assets/GunPack/Show_scene_unofficial/Data/aim_on.mat
-  artifactKey: Guid(3a8214d498761064d94b819b281be6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Show_scene_unofficial/Data/aim_on.mat using Guid(3a8214d498761064d94b819b281be6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdb0a9166fa01f87f45f31f0d012393') in 0.017428 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_UnderpassEntrance_01.prefab
+  artifactKey: Guid(0aabec5c0f265e041a00d862141e9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_UnderpassEntrance_01.prefab using Guid(0aabec5c0f265e041a00d862141e9d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e4fa75f798d5cf0460b7636fabd571') in 0.026645 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9ef4e5984183785bb9aafa96f97fe6') in 0.110854 seconds 
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Straight_01.prefab
+  artifactKey: Guid(f496534c3439ad649906ebc97a7f681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Straight_01.prefab using Guid(f496534c3439ad649906ebc97a7f681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd150a228a604b22d5f6000f28f28433') in 0.032621 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.207119 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9403bdfcda60961bfad7709dc1a9bf') in 0.098364 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ramp_01.prefab
+  artifactKey: Guid(ff2f8685da7c6434d98f9d256236b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ramp_01.prefab using Guid(ff2f8685da7c6434d98f9d256236b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8068f1a9c6e48bb47eeca7518d0d051d') in 0.065075 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045910 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d013e6e6dc5801cd859328e9bb581') in 0.078112 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Straight_02.prefab
+  artifactKey: Guid(708097951ac68b74fa1d8213065d32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Straight_02.prefab using Guid(708097951ac68b74fa1d8213065d32e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81796f714f55bf59678071c59d6d569') in 0.027787 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.367222 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_a.mat
-  artifactKey: Guid(7a94e72b161fed04086d8ff80e2a3108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_a.mat using Guid(7a94e72b161fed04086d8ff80e2a3108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f928ee7dd0e896531cb7c0abe774a30f') in 0.017889 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_GroundMound_01.prefab
+  artifactKey: Guid(40ecf1eecaed46b4bae06db0f98325ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_GroundMound_01.prefab using Guid(40ecf1eecaed46b4bae06db0f98325ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced67b80a6456afb8435fbbbab9af4d') in 0.032215 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.914784 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_c.mat
-  artifactKey: Guid(082d68e13d6519341aa9eed2c2bfbc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_c.mat using Guid(082d68e13d6519341aa9eed2c2bfbc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9a0ba62070a8cb7aeb070f4fdcbe42') in 0.023939 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Hills_01.prefab
+  artifactKey: Guid(5adf9346b9738664ba7ac6f2506be123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Hills_01.prefab using Guid(5adf9346b9738664ba7ac6f2506be123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0e402bc8f529c7cbd75c63dc2c0bca') in 0.017644 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.667926 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/AugeCam.mat
-  artifactKey: Guid(b4fefa7d88c99d24393c010f3b4b3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Materials/AugeCam.mat using Guid(b4fefa7d88c99d24393c010f3b4b3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f480125510940440bec7d1764bcc901d') in 0.016999 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Cross_01.prefab
+  artifactKey: Guid(d5de4bb337a9cbd42acb412f1ee8cacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Cross_01.prefab using Guid(d5de4bb337a9cbd42acb412f1ee8cacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe9eb3e34a237d37a874aae015c5fac') in 0.072338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045796 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62c1d9636d83500686c5cb3ed43d29f') in 0.017131 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ridge_Straight_01.prefab
+  artifactKey: Guid(805301824341bc84f816cb504b609c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Ridge_Straight_01.prefab using Guid(805301824341bc84f816cb504b609c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4585ea0ceac9932dcc0b0c14042553f3') in 0.025674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Road_Straight_02.prefab
+  artifactKey: Guid(e7972166f9675fc4c9794a53a2eb63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Road_Straight_02.prefab using Guid(e7972166f9675fc4c9794a53a2eb63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479503b7a54e8fd3769c61d6f5c5a5aa') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Stair_Walkway_01.prefab
+  artifactKey: Guid(bed48280c24fdca4b964fd04fcd98fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Stair_Walkway_01.prefab using Guid(bed48280c24fdca4b964fd04fcd98fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bb2c137a264653eeaaf048fb779d95') in 0.017239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Station_Platform_01.prefab
+  artifactKey: Guid(40b1c2d1b2ca1eb4eb2fdf82e69daf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Station_Platform_01.prefab using Guid(40b1c2d1b2ca1eb4eb2fdf82e69daf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60774157c499f27bf4e62e9ef24f1f0') in 0.020302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Switch_01.prefab
+  artifactKey: Guid(b1ab2f28d85d8464cba6434dd6432b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Switch_01.prefab using Guid(b1ab2f28d85d8464cba6434dd6432b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7344e88d8c2fb06f4e38cd7716b4af') in 0.026567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Bridge_Pillar_01.prefab
+  artifactKey: Guid(f3f0a0f4f77e7aa45bd7754967971568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Bridge_Pillar_01.prefab using Guid(f3f0a0f4f77e7aa45bd7754967971568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556fc3901802b08756692ec6e394c9c2') in 0.025353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Tunnel_01.prefab
+  artifactKey: Guid(a5779502d2edcdc45941bf15e657cda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Tunnel_01.prefab using Guid(a5779502d2edcdc45941bf15e657cda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e5b33f121426e0bfb3e78979b674db') in 0.016309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Corner_02.prefab
+  artifactKey: Guid(9968970be16dbf346bfc4b63d2cfa425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Corner_02.prefab using Guid(9968970be16dbf346bfc4b63d2cfa425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580149e8088d5328ed001bdf4697e224') in 0.025684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.755325 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab
+  artifactKey: Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab using Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15ddeadd93288f35828ac38d3170377') in 0.023014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.099524 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab
+  artifactKey: Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab using Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70298ba0264378ef74116578ba3e9498') in 0.019862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.144244 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab
+  artifactKey: Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab using Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8528497fdba4a6cc64ed7619c1ca0cd') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.727484 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab
+  artifactKey: Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Environments/SM_Env_Track_Raised_Straight_01.prefab using Guid(a39c519e9cd3a3446aa156add57f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba74d028228bc235b717de3d67af26a') in 0.019584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.360255 seconds.
+  path: Assets/Scenes/Trains.unity
+  artifactKey: Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Trains.unity using Guid(d42e415b7c1714a2d926a1aaa1fb277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7877a72dea432327df4a2a22ab250c') in 0.007977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.699272 seconds.
+  path: Assets/Scenes/Planes.unity
+  artifactKey: Guid(3910fa4c6de3441d68aadbf47c9e1c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Planes.unity using Guid(3910fa4c6de3441d68aadbf47c9e1c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccb7b13ca4db2c2798b6b2952ada061') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.510608 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Barrier_01.prefab
+  artifactKey: Guid(ede2c667ec0b61642bf9760d5bc07df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Barrier_01.prefab using Guid(ede2c667ec0b61642bf9760d5bc07df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7fd39c3e84ae74b44401cc2d349909') in 0.045430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_01.prefab
+  artifactKey: Guid(432308e1a8c7e3348a4480371b26fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_01.prefab using Guid(432308e1a8c7e3348a4480371b26fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4aff27bf254ae051ab8517fc10efe1') in 0.024479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_01.prefab
+  artifactKey: Guid(ad70887e6aaae3d44a816e6bf2e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_01.prefab using Guid(ad70887e6aaae3d44a816e6bf2e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc8e50eda71af7e17c47d65be35388a') in 0.021689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Light_01.prefab
+  artifactKey: Guid(7175c3ed7b6ce64479d5a89f5f42695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Light_01.prefab using Guid(7175c3ed7b6ce64479d5a89f5f42695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ea34cbde2926d211c47aba145f9bfa') in 0.022061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_03.prefab
+  artifactKey: Guid(ec567ce91a809c94abd8dd49c4e71983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_03.prefab using Guid(ec567ce91a809c94abd8dd49c4e71983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb0f46cdf8e1e9ad555c0962de3cf9') in 0.020640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_02.prefab
+  artifactKey: Guid(ee71e305dbcaa3f40b8dd253e6512a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_02.prefab using Guid(ee71e305dbcaa3f40b8dd253e6512a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fea5717cf85967f373a63c253b65b53') in 0.027564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Logs_01.prefab
+  artifactKey: Guid(005d12fadc69e76449d74cf4db1df66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Logs_01.prefab using Guid(005d12fadc69e76449d74cf4db1df66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1f3b6959af9528387dec7194759069') in 0.025444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_04.prefab
+  artifactKey: Guid(0abdbcda74e12e44e94ed4782dfb0a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_04.prefab using Guid(0abdbcda74e12e44e94ed4782dfb0a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4f11d3c586f6bbf3db50cc94bb2603') in 0.021524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_03.prefab
+  artifactKey: Guid(840a8cc6aaffc464c878a05139c4f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_03.prefab using Guid(840a8cc6aaffc464c878a05139c4f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944fe9a61b5b9bc3b39727f25d13acb5') in 0.022619 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69890de5832d21ba250679746b52326') in 0.018158 seconds 
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Switch_Pole_01.prefab
+  artifactKey: Guid(0371fc92b0f987842bfe7a40261ee770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Switch_Pole_01.prefab using Guid(0371fc92b0f987842bfe7a40261ee770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165b79c08dab5e27b1d7dc6abd02f747') in 0.024544 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.588376 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f02783087d1498f3126996c0ae2c195') in 0.145085 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Base_01.prefab
+  artifactKey: Guid(3ad346c73dd04b74184c9bc5c93ecec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Base_01.prefab using Guid(3ad346c73dd04b74184c9bc5c93ecec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eec4cba73874629aadbfdefa2018c51') in 0.023169 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.117624 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bac8eb00a36a6f08e0fe459f7449198') in 0.031367 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_02.prefab
+  artifactKey: Guid(e4d1b4341235dfb488d58d2c47733ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_02.prefab using Guid(e4d1b4341235dfb488d58d2c47733ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98be5ee0840f637fff3d73c1ca666736') in 0.017539 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Store Assets/GunPack/Show_scene_unofficial/Data/Lamp.fbx
-  artifactKey: Guid(5569a6e25e81ded41994d557209f2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Show_scene_unofficial/Data/Lamp.fbx using Guid(5569a6e25e81ded41994d557209f2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29447a55e334b39e30c19c51a3d622e2') in 0.117433 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Cross_01.prefab
+  artifactKey: Guid(c0446a08c1e53aa4ca8259a440d3e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Pole_Cross_01.prefab using Guid(c0446a08c1e53aa4ca8259a440d3e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a58b77419a60fd5eb71932a2992af3') in 0.023008 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.327196 seconds.
-  path: Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Black.mat
-  artifactKey: Guid(e459a9a184307d147b5ff8ce2628188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/Black.mat using Guid(e459a9a184307d147b5ff8ce2628188c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eb84b04df3df5662f3e490297a969d') in 0.019569 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Cable_Pole_01.prefab
+  artifactKey: Guid(72ca1a84d462c3f4f985a60b774e8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Cable_Pole_01.prefab using Guid(72ca1a84d462c3f4f985a60b774e8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f5bb6bc00fc355d01998804779a851') in 0.024113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.595919 seconds.
-  path: Assets/Store Assets/GunPack/Show_scene_unofficial/Data/Show_scene.fbx
-  artifactKey: Guid(eec4238e9ad8a514d9c443c3d8ae2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store Assets/GunPack/Show_scene_unofficial/Data/Show_scene.fbx using Guid(eec4238e9ad8a514d9c443c3d8ae2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4655ce84261f162ed8fd771fe5396ba6') in 0.146421 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_02.prefab
+  artifactKey: Guid(f2e5e653ce8cd4c43a9cb70b48cbf0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Sign_02.prefab using Guid(f2e5e653ce8cd4c43a9cb70b48cbf0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c324122eb3b319e76d95e7faf0519f') in 0.024214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.250423 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_01.prefab
+  artifactKey: Guid(432308e1a8c7e3348a4480371b26fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_01.prefab using Guid(432308e1a8c7e3348a4480371b26fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff88420f516d435ee82451f3d601e7c2') in 0.019494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.365297 seconds.
+  path: Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_02.prefab
+  artifactKey: Guid(e4d1b4341235dfb488d58d2c47733ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store Assets/SimpleTrains/Prefabs/Props/SM_Prop_Container_02.prefab using Guid(e4d1b4341235dfb488d58d2c47733ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fc1cfafafb0ab4e9ab12a9484fa2a5') in 0.021257 seconds 
