@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/OfficeLevel.unity
+=======
+- path: Assets/Scenes/Level Select.unity
+>>>>>>> ce4be8d4445d8fbbfb300259c594f048285f4436
   isLoaded: 1
   isActive: 1
   isSubScene: 0
